@@ -1,0 +1,277 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 15px;
+    margin-left: 15%;}
+
+body{
+    background: rgb(39, 59, 45);
+    background-image:  url(imagenes/diaagrama2.png);
+    animation: movimiento 50s infinite linear;
+}
+
+header{
+    width: 50%;
+    height: 50px;
+}
+@keyframes movimiento {
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    background-image: url(imagenes/diagrama3.png);
+    animation: movimiento 20s infinite linear;
+}
+
+section{
+        width: 40%;
+        height: 100%;
+    
+    }
+    .seccion1{
+        width: 70%;
+        height: 115%;
+
+    }
+    .area{
+        width: 80%;
+        height: 70%;
+        left: 12%;
+        top: 15%;        
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        resize: none;
+        border: none;
+        font-style: normal;
+        background-color: rgb(47, 68, 53);
+        color: rgb(227, 255, 252);
+        border-radius: 5px;
+        text-transform: lowercase;
+        font-size: 30px;
+
+    }
+    ::placeholder{ color: rgb(168, 175, 201);}
+    .area:focus{
+    border: none;
+    outline: none;
+    }
+    .informacion{
+        color: rgb(174, 179, 179);
+        display: flex;
+        margin-left: 10%;
+        margin-top: 10px;
+        font-size: 35px;
+
+    }
+
+     .botones{
+        display: flex;
+        margin-top: 30px; 
+        margin-left: 10%;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .btn-encriptar{
+        background-color: #202B23;
+        color: rgb(239, 239, 239);
+        text-shadow: rgb(239, 239, 239);
+        border-radius: 10px;
+        display: inline-block;
+        font-size: 30px;
+        cursor:pointer;
+        outline: none;
+    }
+    .btn-encriptar:hover{
+        transform: scale(1.1);
+    }
+ 
+    
+    .btn-desencriptar{
+        background-color: rgb(121, 143, 127);
+        color: #080c09;
+        text-shadow: rgb(239, 239, 239);
+        border-radius: 10px;
+        font-size: 30px;
+        cursor:pointer;
+    }
+    .btn-desencriptar:hover{
+        transform: scale(1.1);
+    }
+
+    .btn-encriptar, .btn-desencriptar{
+        width: 40%;
+        height: 50px;
+    }
+
+
+    .seccion2{
+        width: 40%;
+        height: 100%;
+        padding: .5%;
+        background-color: rgb(47, 68, 53);
+        border-radius: 3%;
+        margin-top: 20px;
+        margin-right: 3%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display:inline-block;
+    }    
+   
+   .munheco{
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+    .contedor-h3{
+        height: 100%;
+        font-size: 20px;
+        text-align:center;
+        color: rgb(174, 179, 179);
+    }
+
+    .contenedor-resultado{
+        width: 80%;
+        height: 50%;
+        padding:10%;
+        box-sizing: border-box;
+        color: rgb(174, 179, 179);
+        font-size: 30px;
+    }
+
+.contenedor-copiar{
+        padding-top: 10%;
+        box-sizing: border-box;
+    }
+       .btn-copiar{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(121, 143, 127);
+        color: #080c09;
+        text-shadow: rgb(239, 239, 239);
+        border-radius: 10px;
+        font-size: 30px;
+        cursor:pointer;
+     }
+     .btn-copiar:hover{
+        transform: scale(1.3);
+    }
+
+.ocultar{
+    display: none;
+}  
+
+
+
+footer{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(174, 179, 179);
+    background-image: url(imagenes/diagrama3.png);
+    animation: movimiento 20s infinite linear;
+}
+.redes{
+    display:block;
+
+}
+  .wrapper{
+    position: relative;
+    left:125%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    }
+
+.wrapper ul{
+    list-style: none;
+    position:flex;
+    left:125% ;
+    }
+    
+ .wrapper ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30%;
+    border: 0px solid #d8e2dc;
+    float: left;
+    transition: all 0.3s ease;
+    }
+    
+    .wrapper ul li .fa{
+    color: #d8e2dc;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    }
+    .wrapper ul li:hover.github{
+        border: 5px solid #102a4d;
+        box-shadow:0 0 15px #102a4d;
+        transition: all 0.5s ease;
+        }
+        
+       .wrapper ul li:hover .fa-github{
+        color: #204472;
+        text-shadow: 0 0 15px #77a2e3;
+        transition: all 0.5s ease;
+        }
+        
+    .wrapper ul li:hover.linkedin{
+        border:5px solid #0277B5;
+        box-shadow: 0 0 15px #0277B5;
+        transition: all 0.5s ease;
+        }
+        .wrapper ul li:hover .fa-linkedin{
+        color: #51aee0;
+        text-shadow: 0 0 15px #51aee0;
+        transition: all 0.5s ease;
+        }
+    .wrapper ul li:hover.youtube{
+        border:5px solid #FF0000;
+        box-shadow: 0 0 15px #FF0000;
+        transition: all 0.5s ease;
+        }
+        .wrapper ul li:hover .fa-youtube{
+        color: #eb9797;
+        text-shadow: 0 0 15px #eb9797;
+        transition: all 0.5s ease;
+        }
+ @media screen and (max-width:600px){
+.logo, .seccion1, .seccion2, .logo,.copiar,.copiarMensaje,.text-area,.mensaje{
+    width: auto;
+    display: block;
+}
+.botones,.btn-desencriptar, .btn-encriptar{
+    display: block;
+    font-size: 25px;
+    width:138%;
+}
+.información{
+ display: flex;
+text-align: center;
+}
+footer{
+padding: 30% 0 0 0%;
+display: block;
+}
+} 
