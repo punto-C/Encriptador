@@ -98,4 +98,5 @@ const btnCopiar = document.querySelector(".btn-copiar");
     var contenido = document.querySelector(".texto-resultado").textContent;
     navigator.clipboard.writeText(contenido);
     console.log("hola");
+    alert("¡Texto copiado!");
 })
