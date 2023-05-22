@@ -13,7 +13,7 @@
 
 body{
     background: rgb(39, 59, 45);
-    background-image:  url(imagenes/diaagrama2.png);
+    background-image:  url(diaagrama2.png);
     animation: movimiento 50s infinite linear;
 }
 
@@ -35,7 +35,7 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
-    background-image: url(imagenes/diagrama3.png);
+    background-image: url(diagrama3.png);
     animation: movimiento 20s infinite linear;
 }
 
@@ -186,7 +186,7 @@ footer{
     text-align: center;
     font-size: 30px;
     color: rgb(174, 179, 179);
-    background-image: url(imagenes/diagrama3.png);
+    background-image: url(diagrama3.png);
     animation: movimiento 20s infinite linear;
 }
 .redes{
