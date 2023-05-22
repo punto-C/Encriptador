@@ -216,45 +216,45 @@ footer{
     border-radius: 30%;
     border: 0px solid #d8e2dc;
     float: left;
-    transition: all 0.3s ease;
+    transition: all 0s ease;
     }
     
     .wrapper ul li .fa{
     color: #d8e2dc;
     margin-top: 10px;
-    transition: all 0.5s ease;
+    transition: all 0s ease;
     }
     .wrapper ul li:hover.github{
-        border: 5px solid #102a4d;
+        border: 3px solid #102a4d;
         box-shadow:0 0 15px #102a4d;
-        transition: all 0.5s ease;
+        transition: all 0s ease;
         }
         
        .wrapper ul li:hover .fa-github{
         color: #204472;
         text-shadow: 0 0 15px #77a2e3;
-        transition: all 0.5s ease;
+        transition: all 0s ease;
         }
         
     .wrapper ul li:hover.linkedin{
-        border:5px solid #0277B5;
+        border: 3px solid #0277B5;
         box-shadow: 0 0 15px #0277B5;
-        transition: all 0.5s ease;
+        transition: all 0s ease;
         }
         .wrapper ul li:hover .fa-linkedin{
         color: #51aee0;
         text-shadow: 0 0 15px #51aee0;
-        transition: all 0.5s ease;
+        transition: all 0s ease;
         }
     .wrapper ul li:hover.youtube{
-        border:5px solid #FF0000;
+        border: 3px solid #FF0000;
         box-shadow: 0 0 15px #FF0000;
-        transition: all 0.5s ease;
+        transition: all 0s ease;
         }
         .wrapper ul li:hover .fa-youtube{
         color: #eb9797;
         text-shadow: 0 0 15px #eb9797;
-        transition: all 0.5s ease;
+        transition: all 0s ease;
         }
  @media screen and (max-width:600px){
 .logo, .seccion1, .seccion2, .logo,.copiar,.copiarMensaje,.text-area,.mensaje{
